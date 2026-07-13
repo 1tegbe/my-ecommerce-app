@@ -9,7 +9,7 @@ function ShopContextprovider ({children}) {
         productData,currency,delivery_fee
     }
   return (
-  <ShopContext.Provider value={{}}>
+  <ShopContext.Provider value={value}>
         {children}
   </ShopContext.Provider>
 

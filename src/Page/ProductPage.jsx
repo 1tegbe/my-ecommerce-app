@@ -3,7 +3,7 @@ import NavbarComponent from "../Component/NavbarComponent";
 import {ShopContext} from "../Context/ShopContext"
 const ProductPage = () => {
   const {productData} = useContext(ShopContext);
-  alert(productData);
+console.log(productData);
   return (
     <>
     
